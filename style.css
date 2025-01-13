@@ -1,8 +1,38 @@
 body{
     font-family: Verdana;
+    background-color: yellow;
+    
 }
-button{
-    margin-top: 10px;
+#submitBTN{
     width: 200px;
     height: 48px;
+    background-color:rgb(76, 76, 252);
+    border-radius: 10px;
+    margin: 10px;
+}
+.button{
+    display: inherit;
+}
+.bodyclass{
+    margin: 10px;
+    background-color: dimgrey;
+    display: inline-block;
+    border: 3px solid;
+    border-radius: 10px;
+}
+.formargin{
+    margin: 10px;
+}
+.inputs{
+    border-radius: 10px;
+    width: 178px;
+    height: 20px;
+}
+#reset{
+    width: 150px;
+    height: 32px;
+    background-color:rgb(76, 76, 252);
+    border-radius: 10px;
+    margin: 10px;
+    margin-top: 0px;
 }
